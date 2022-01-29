@@ -89,9 +89,9 @@ HoodShark.Size = UDim2.new(0, 170, 0, 56)
 HoodShark.Font = Enum.Font.GothamBold
 HoodShark.Text = "HoodShark"
 HoodShark.TextColor3 = Color3.fromRGB(0, 0, 0)
-HoodShark.TextSize = 14.000
+HoodShark.TextSize = 25.000
 HoodShark.MouseButton1Down:connect(function()
-loadstring(game:HttpGet('https://pastebin.com/raw/GZzx6z2R'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/bruh1425/skided-roblox/main/ll'))() 
 end)
 
 Genasscript.Name = "Genas script"
