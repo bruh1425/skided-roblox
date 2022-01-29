@@ -39,29 +39,16 @@ DahoodguiV1.Text = "Da hood gui V.1"
 DahoodguiV1.TextColor3 = Color3.fromRGB(0, 0, 0)
 DahoodguiV1.TextSize = 14.000
 
-AutoRobDh.Name = "Auto Rob Dh"
-AutoRobDh.Parent = Main
-AutoRobDh.BackgroundColor3 = Color3.fromRGB(0, 0, 127)
-AutoRobDh.Position = UDim2.new(0.518134713, 0, 0.558975995, 0)
-AutoRobDh.Size = UDim2.new(0, 170, 0, 56)
-AutoRobDh.Font = Enum.Font.GothamBold
-AutoRobDh.Text = "Auto Rob Dh"
-AutoRobDh.TextColor3 = Color3.fromRGB(0, 0, 0)
-AutoRobDh.TextSize = 14.000
-AutoRobDh.MouseButton1Down:connect(function()
-loadstring(game:HttpGet('https://pastebin.com/raw/3L5CTn8J'))() 
-end)
-
-AutoRobDh.Name = "LLLLLLLLLLLLLL"
-AutoRobDh.Parent = Main
-AutoRobDh.BackgroundColor3 = Color3.fromRGB(0, 0, 127)
-AutoRobDh.Position = UDim2.new(0.518134713, 0, 0.558975995, 0)
-AutoRobDh.Size = UDim2.new(0, 170, 0, 56)
-AutoRobDh.Font = Enum.Font.GothamBold
-AutoRobDh.Text = "Auto Rob Dh"
-AutoRobDh.TextColor3 = Color3.fromRGB(0, 0, 0)
-AutoRobDh.TextSize = 20.000
-AutoRobDh.MouseButton1Down:connect(function()
+lock.Name = "lock(q)"
+lock.Parent = Main
+lock.BackgroundColor3 = Color3.fromRGB(0, 0, 127)
+lock.Position = UDim2.new(0.518134713, 0, 0.558975995, 0)
+lock.Size = UDim2.new(0, 170, 0, 56)
+lock.Font = Enum.Font.GothamBold
+lock.Text = "Legacy's Lock(q)"
+lock.TextColor3 = Color3.fromRGB(0, 0, 0)
+lock.TextSize = 20.000
+lock.MouseButton1Down:connect(function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/bruh1425/skided-roblox/main/ll'))() 
 end)
 --example true
