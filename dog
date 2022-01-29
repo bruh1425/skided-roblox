@@ -32,23 +32,23 @@ Main.Draggable = true
 
 DahoodguiV1.Name = "Da hood gui V.1"
 DahoodguiV1.Parent = Main
-DahoodguiV1.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+DahoodguiV1.BackgroundColor3 = Color3.fromRGB(125, 0, 220)
 DahoodguiV1.Size = UDim2.new(0, 386, 0, 51)
 DahoodguiV1.Font = Enum.Font.GothamBold
-DahoodguiV1.Text = "Da hood gui V.1"
+DahoodguiV1.Text = "Legacy's skided GUI"
 DahoodguiV1.TextColor3 = Color3.fromRGB(0, 0, 0)
 DahoodguiV1.TextSize = 14.000
 
-lock.Name = "lock(q)"
-lock.Parent = Main
-lock.BackgroundColor3 = Color3.fromRGB(0, 0, 127)
-lock.Position = UDim2.new(0.518134713, 0, 0.558975995, 0)
-lock.Size = UDim2.new(0, 170, 0, 56)
-lock.Font = Enum.Font.GothamBold
-lock.Text = "Legacy's Lock(q)"
-lock.TextColor3 = Color3.fromRGB(0, 0, 0)
-lock.TextSize = 20.000
-lock.MouseButton1Down:connect(function()
+AutoRobDh.Name = "AutoRobDh"
+AutoRobDh.Parent = Main
+AutoRobDh.BackgroundColor3 = Color3.fromRGB(125, 0, 220)
+AutoRobDh.Position = UDim2.new(0.518134713, 0, 0.558975995, 0)
+AutoRobDh.Size = UDim2.new(0, 170, 0, 56)
+AutoRobDh.Font = Enum.Font.GothamBold
+AutoRobDh.Text = "Legacy's aim lock(q)"
+AutoRobDh.TextColor3 = Color3.fromRGB(0, 0, 0)
+AutoRobDh.TextSize = 14.000
+AutoRobDh.MouseButton1Down:connect(function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/bruh1425/skided-roblox/main/ll'))() 
 end)
 --example true
@@ -67,7 +67,7 @@ end)
 
 Close.Name = "Close"
 Close.Parent = Main
-Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundColor3 = Color3.fromRGB(125, 0, 220)
 Close.Position = UDim2.new(0.883419752, 0, 0, 0)
 Close.Size = UDim2.new(0, 45, 0, 43)
 Close.Font = Enum.Font.GothamBold
@@ -83,20 +83,20 @@ end)
 
 HoodShark.Name = "Hood Shark"
 HoodShark.Parent = Main
-HoodShark.BackgroundColor3 = Color3.fromRGB(0, 0, 127)
+HoodShark.BackgroundColor3 = Color3.fromRGB(125, 0, 220)
 HoodShark.Position = UDim2.new(0.0207253881, 0, 0.132927433, 0)
 HoodShark.Size = UDim2.new(0, 170, 0, 56)
 HoodShark.Font = Enum.Font.GothamBold
-HoodShark.Text = "HoodShark"
+HoodShark.Text = "Old HoodShark"
 HoodShark.TextColor3 = Color3.fromRGB(0, 0, 0)
-HoodShark.TextSize = 25.000
+HoodShark.TextSize = 14.000
 HoodShark.MouseButton1Down:connect(function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/bruh1425/skided-roblox/main/ll'))() 
+loadstring(game:HttpGet('https://pastebin.com/raw/GZzx6z2R'))()
 end)
 
-Genasscript.Name = "Genas script"
+Genasscript.Name = "alt scrips"
 Genasscript.Parent = Main
-Genasscript.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+Genasscript.BackgroundColor3 = Color3.fromRGB(125, 0, 220)
 Genasscript.Position = UDim2.new(0.025906736, 0, 0.560129523, 0)
 Genasscript.Size = UDim2.new(0, 170, 0, 56)
 Genasscript.Font = Enum.Font.GothamBold
@@ -1332,7 +1332,7 @@ end)
 
 FistReach.Name = "Fist Reach"
 FistReach.Parent = Main
-FistReach.BackgroundColor3 = Color3.fromRGB(0, 0, 127)
+FistReach.BackgroundColor3 = Color3.fromRGB(125, 0, 220)
 FistReach.Position = UDim2.new(0.0233160611, 0, 0.420173794, 0)
 FistReach.Size = UDim2.new(0, 171, 0, 56)
 FistReach.Font = Enum.Font.GothamBold
@@ -1345,7 +1345,7 @@ end)
 
 Godmode.Name = "God mode"
 Godmode.Parent = Main
-Godmode.BackgroundColor3 = Color3.fromRGB(0, 0, 127)
+Godmode.BackgroundColor3 = Color3.fromRGB(125, 0, 220)
 Godmode.Position = UDim2.new(0.518134713, 0, 0.276685894, 0)
 Godmode.Size = UDim2.new(0, 170, 0, 56)
 Godmode.Font = Enum.Font.GothamBold
@@ -1358,7 +1358,7 @@ end)
 
 GodBlock.Name = "God Block"
 GodBlock.Parent = Main
-GodBlock.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+GodBlock.BackgroundColor3 = Color3.fromRGB(125, 0, 220)
 GodBlock.Position = UDim2.new(0.0233160611, 0, 0.274613678, 0)
 GodBlock.Size = UDim2.new(0, 170, 0, 56)
 GodBlock.Font = Enum.Font.GothamBold
@@ -1371,7 +1371,7 @@ end)
 
 Clicktp.Name = "Click tp "
 Clicktp.Parent = Main
-Clicktp.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+Clicktp.BackgroundColor3 = Color3.fromRGB(125, 0, 220)
 Clicktp.Position = UDim2.new(0.518134713, 0, 0.133333355, 0)
 Clicktp.Size = UDim2.new(0, 170, 0, 56)
 Clicktp.Font = Enum.Font.GothamBold
@@ -1404,7 +1404,7 @@ end)
 
 SledgeHammer.Name = "Sledge Hammer"
 SledgeHammer.Parent = Main
-SledgeHammer.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+SledgeHammer.BackgroundColor3 = Color3.fromRGB(125, 0, 220)
 SledgeHammer.Position = UDim2.new(0.518134713, 0, 0.419426054, 0)
 SledgeHammer.Size = UDim2.new(0, 170, 0, 56)
 SledgeHammer.Font = Enum.Font.GothamBold
@@ -1417,7 +1417,7 @@ end)
 
 Discord.Name = "Discord"
 Discord.Parent = Main
-Discord.BackgroundColor3 = Color3.fromRGB(0, 0, 127)
+Discord.BackgroundColor3 = Color3.fromRGB(125, 0, 220)
 Discord.Position = UDim2.new(0, 0, 0.867549658, 0)
 Discord.Size = UDim2.new(0, 386, 0, 60)
 Discord.Font = Enum.Font.GothamBold
@@ -1427,7 +1427,7 @@ Discord.TextSize = 14.000
 
 AntiLoseguns.Name = "Anti Lose guns"
 AntiLoseguns.Parent = Main
-AntiLoseguns.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+AntiLoseguns.BackgroundColor3 = Color3.fromRGB(125, 0, 220)
 AntiLoseguns.Position = UDim2.new(0.518134713, 0, 0.704194248, 0)
 AntiLoseguns.Size = UDim2.new(0, 170, 0, 56)
 AntiLoseguns.Font = Enum.Font.GothamBold
@@ -1440,7 +1440,7 @@ end)
 
 Extras.Name = "Extras"
 Extras.Parent = Main
-Extras.BackgroundColor3 = Color3.fromRGB(0, 0, 127)
+Extras.BackgroundColor3 = Color3.fromRGB(125, 0, 220)
 Extras.Position = UDim2.new(0.023316022, 0, 0.706401706, 0)
 Extras.Size = UDim2.new(0, 171, 0, 56)
 Extras.Font = Enum.Font.GothamBold
@@ -2458,7 +2458,7 @@ TextLabel.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
 TextLabel.Position = UDim2.new(0, 0, 0.898195982, 0)
 TextLabel.Size = UDim2.new(0, 450, 0, 28)
 TextLabel.Font = Enum.Font.GothamBlack
-TextLabel.Text = "E"
+TextLabel.Text = "Extra scuffed shit"
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.TextSize = 14.000
 end)
