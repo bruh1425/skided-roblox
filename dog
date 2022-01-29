@@ -1421,7 +1421,7 @@ Discord.BackgroundColor3 = Color3.fromRGB(125, 0, 220)
 Discord.Position = UDim2.new(0, 0, 0.867549658, 0)
 Discord.Size = UDim2.new(0, 386, 0, 60)
 Discord.Font = Enum.Font.GothamBold
-Discord.Text = "E"
+Discord.Text = "Legacy#6343"
 Discord.TextColor3 = Color3.fromRGB(0, 0, 0)
 Discord.TextSize = 14.000
 
@@ -1444,7 +1444,7 @@ Extras.BackgroundColor3 = Color3.fromRGB(125, 0, 220)
 Extras.Position = UDim2.new(0.023316022, 0, 0.706401706, 0)
 Extras.Size = UDim2.new(0, 171, 0, 56)
 Extras.Font = Enum.Font.GothamBold
-Extras.Text = "E"
+Extras.Text = "Extra shit(scuffed)"
 Extras.TextColor3 = Color3.fromRGB(0, 0, 0)
 Extras.TextSize = 14.000
 Extras.MouseButton1Down:connect(function()
@@ -1855,7 +1855,7 @@ TextLabel.BorderSizePixel = 0
 TextLabel.Position = UDim2.new(0, 0, 0.600000024, 0)
 TextLabel.Size = UDim2.new(0, 270, 0, 10)
 TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "E"
+TextLabel.Text = "Legacy#6343"
 TextLabel.TextColor3 = Color3.new(1, 1, 1)
 TextLabel.TextSize = 15
  
@@ -2458,7 +2458,7 @@ TextLabel.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
 TextLabel.Position = UDim2.new(0, 0, 0.898195982, 0)
 TextLabel.Size = UDim2.new(0, 450, 0, 28)
 TextLabel.Font = Enum.Font.GothamBlack
-TextLabel.Text = "Extra scuffed shit"
+TextLabel.Text = "Legacy#6343"
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.TextSize = 14.000
 end)
