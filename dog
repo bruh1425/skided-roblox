@@ -1,3 +1,20 @@
+pcall(function()
+  game.StarterGui:SetCore("SendNotification", {
+    Title = 'Legacy's skidded GUI';
+    Text = 'Legacy's skidded GUI executed successfully';
+    Duration = 20;
+  })
+  if game.Players.LocalPlayer:IsInGroup(7823313)
+    coroutine.resume(coroutine.create(function()
+       wait(10)
+       game.StarterGui:SetCore("SendNotification", {
+        Title = 'you have not benn authenticated';
+        Text = 'to get authenticated to use the script dm Legacy (discord has been set to your clipboard)';
+        Duration = 20;
+       })
+    end))
+  end
+end)
 local ScreenGui = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
 local DahoodguiV1 = Instance.new("TextLabel")
@@ -2486,3 +2503,9 @@ OPEN.MouseButton1Down:connect(function()
 open.Visible = false
 Main.Visible = true
 end)
+else coroutine.resume(coroutine.create(function()
+       wait(10)
+       game.StarterGui:SetCore("SendNotification", {
+        Title = 'you have not benn authenticated';
+        Text = 'to get authenticated to use the script dm Legacy (discord has been set to your clipboard)';
+        Duration = 20;
