@@ -1408,7 +1408,7 @@ SledgeHammer.BackgroundColor3 = Color3.fromRGB(125, 0, 220)
 SledgeHammer.Position = UDim2.new(0.518134713, 0, 0.419426054, 0)
 SledgeHammer.Size = UDim2.new(0, 170, 0, 56)
 SledgeHammer.Font = Enum.Font.GothamBold
-SledgeHammer.Text = "toggle swag mode crasher (can not be revered) (needs a good pc to work)"
+SledgeHammer.Text = "swag mode crasher"
 SledgeHammer.TextColor3 = Color3.fromRGB(0, 0, 0)
 SledgeHammer.TextSize = 14.000
 SledgeHammer.MouseButton1Down:connect(function()
