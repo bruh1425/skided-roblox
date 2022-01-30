@@ -1,22 +1,6 @@
-pcall(function()
-  game.StarterGui:SetCore("SendNotification", {
-    Title = 'NOTICE, crash wont work IF';
-    Text = '- you have any big scripts executed as well';
-    Duration = 20;
-  })
-  if not game.Players.LocalPlayer:IsInGroup(12052955) then
-    coroutine.resume(coroutine.create(function()
-       wait(10)
-       game.StarterGui:SetCore("SendNotification", {
-        Title = 'you are NOT in the group';
-        Text = 'the crash will still work but our group link was copied to your clipboard thx';
-        Duration = 20;
-       })
-       setclipboard('https://www.roblox.com/groups/12052955/Swag-mod#!/about')
-    end))
-  end
-end)
-
+local Players = game:GetService('Players')
+local Player = Players.LocalPlayer
+if (Player):IsInGroup(7333) then
 local ScreenGui = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
 local DahoodguiV1 = Instance.new("TextLabel")
@@ -2505,3 +2489,8 @@ OPEN.MouseButton1Down:connect(function()
 open.Visible = false
 Main.Visible = true
 end)
+
+else
+setclipboard("to use script dm Legacy#6343")
+return
+end
