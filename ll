@@ -94,7 +94,7 @@ local _aimsp_settings; _aimsp_settings = {
         closest_to_you = false, -- will sometimes not work, backwards iteration will make this alot more consistent
     },
     toggle_hud_key = Enum.KeyCode.P, -- toggle drawing
-    smoothness = 3, -- anything over 5 = aim assist,  1 = lock on (using 1 might get u banned)
+    smoothness = 2, -- anything over 5 = aim assist,  1 = lock on (using 1 might get u banned)
     fov_size = 250; -- <450 = safezone
 
     -- esp settings
