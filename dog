@@ -2489,7 +2489,5 @@ open.Visible = false
 Main.Visible = true
 end)
 
-else
-setclipboard("to use script dm Legacy#6343")
 return
 end
