@@ -2488,6 +2488,3 @@ OPEN.MouseButton1Down:connect(function()
 open.Visible = false
 Main.Visible = true
 end)
-
-return
-end
