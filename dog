@@ -1,6 +1,5 @@
 local Players = game:GetService('Players')
 local Player = Players.LocalPlayer
-if (Player):IsInGroup(7823313) then
 local ScreenGui = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
 local DahoodguiV1 = Instance.new("TextLabel")
