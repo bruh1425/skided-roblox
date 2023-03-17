@@ -1,7 +1,6 @@
 local correctPassword = "1"
 
 local function onPlayerJoin(player)
-    -- create a prompt for the player to enter a password
     local passwordPrompt = Instance.new("TextBox")
     passwordPrompt.Parent = player.PlayerGui
     passwordPrompt.Size = UDim2.new(0, 200, 0, 50)
