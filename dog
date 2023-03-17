@@ -1,3 +1,26 @@
+local correctPassword = "1"
+
+local function onPlayerJoin(player)
+    -- create a prompt for the player to enter a password
+    local passwordPrompt = Instance.new("TextBox")
+    passwordPrompt.Parent = player.PlayerGui
+    passwordPrompt.Size = UDim2.new(0, 200, 0, 50)
+    passwordPrompt.Position = UDim2.new(0.5, -100, 0.5, -25)
+    passwordPrompt.Text = ""
+    passwordPrompt.PlaceholderText = "Enter password to continue"
+    passwordPrompt.FocusLost:Connect(function(enterPressed)
+        if passwordPrompt.Text == correctPassword then
+            passwordPrompt:Destroy() -- remove the prompt
+            print(player.Name .. " has entered the correct password and can now continue")
+        else
+            passwordPrompt.Text = "" -- clear the incorrect password
+            print(player.Name .. " has entered an incorrect password")
+          
+        end
+    end)
+end
+
+game.Players.PlayerAdded:Connect(onPlayerJoin)
 local Players = game:GetService('Players')
 local Player = Players.LocalPlayer
 local ScreenGui = Instance.new("ScreenGui")
